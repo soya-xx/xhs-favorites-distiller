@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书收藏蒸馏"
+  short_description: "把有价值的收藏转成贴合日常痛点的方法，验证有效后接入工作流"
+  default_prompt: "用 $xhs-favorites-distiller 检查我的新收藏，只把能解决核心痛点且验证有效的方法接入日常工作流。"

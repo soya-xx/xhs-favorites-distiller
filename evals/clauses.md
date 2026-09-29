@@ -1,0 +1,12 @@
+# Clause and responsibility registry
+
+This registry describes the tested workflow requirements, not a collection of new prompt patches. The requirements originated in the intended workflow. Tests did not cause a fixture-specific production branch to be added.
+
+| Requirement | Failure class / invariant | Positive / negative / cross-domain fixtures | Owner and overlap | Cost and evidence |
+|---|---|---|---|---|
+| P0/P1 value before creation | Avoid spending effort generating unrelated or duplicate methods | Work handoff; unrelated hobby / already covered; family packing | Context-owning agent, before generation; activation reiterates eligibility | No additional model stage required. Exact whole-arm usage is in result summaries; clause-only token cost is not isolated. Generation ablation did not establish incremental benefit; retain as an explicit product requirement, not as a claimed model-quality gain. |
+| Natural invocation before activation | An explicitly effective method can still remain unused in normal tasks | Work/life eligible controls; explicit-only case; both domains | Context-owning agent consumes independently obtained host evidence; installation check verifies the real consumer | Whole-arm usage recorded. Precise removal caused premature activation for the explicit-only synthetic case in 3/3 draws. This is local contribution evidence, not downstream effectiveness. |
+| Current source before judgment | Decisions must apply to the content actually read | Unchanged import; changed content with stale revision; separate source identities | SQLite revision comparison, no semantic veto; agent re-reads after mismatch | Zero model calls for import/revision checks. Deterministic CLI regressions protect the supported update path. |
+| Tool and data-directory routing | An installed skill must carry its helper and use one current decision store | Installed-helper smoke; missing-reference regression; alternate temporary data root | Agent chooses an authorized source; helper performs local storage only | Added in the final package after the frozen ablation snapshot. Final-package smoke is reported separately; it is not pooled into frozen-arm statistics. |
+
+No claim of benefit is based solely on a green full arm. No-clause and no-method results remain visible. Instructions explicitly requested by the product owner remain contractual even when a small test set does not show a marginal improvement.

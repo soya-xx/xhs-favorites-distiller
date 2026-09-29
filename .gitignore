@@ -1,0 +1,8 @@
+.private-eval/
+.private-raw/
+.local/
+__pycache__/
+*.pyc
+*.sqlite*
+.env*
+dist/

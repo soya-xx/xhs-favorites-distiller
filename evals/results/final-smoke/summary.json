@@ -1,0 +1,109 @@
+{
+  "scope": "synthetic activation stage; repeated draws are not independent real incidents",
+  "runs": [
+    {
+      "run": "full-1",
+      "status": "completed",
+      "started_at": "2026-09-15T22:36:39.074063+00:00",
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 18926,
+          "cached_input_tokens": 11520,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 557,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "allowed_actions": [
+            "activate"
+          ],
+          "workflow_expected": "activate",
+          "actual": "activate",
+          "pass": true,
+          "workflow_match": true
+        },
+        {
+          "id": "life_packing",
+          "allowed_actions": [
+            "activate"
+          ],
+          "workflow_expected": "activate",
+          "actual": "activate",
+          "pass": true,
+          "workflow_match": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "allowed_actions": [
+            "reject",
+            "retain"
+          ],
+          "workflow_expected": "reject",
+          "actual": "reject",
+          "pass": true,
+          "workflow_match": true
+        },
+        {
+          "id": "already_covered",
+          "allowed_actions": [
+            "reject",
+            "retain"
+          ],
+          "workflow_expected": "reject",
+          "actual": "reject",
+          "pass": true,
+          "workflow_match": true
+        },
+        {
+          "id": "incomplete_source",
+          "allowed_actions": [
+            "reject",
+            "retain"
+          ],
+          "workflow_expected": "retain",
+          "actual": "retain",
+          "pass": true,
+          "workflow_match": true
+        },
+        {
+          "id": "baseline_already_green",
+          "allowed_actions": [
+            "reject",
+            "retain"
+          ],
+          "workflow_expected": "retain",
+          "actual": "retain",
+          "pass": true,
+          "workflow_match": true
+        },
+        {
+          "id": "explicit_only",
+          "allowed_actions": [
+            "reject",
+            "retain"
+          ],
+          "workflow_expected": "retain",
+          "actual": "retain",
+          "pass": true,
+          "workflow_match": true
+        },
+        {
+          "id": "negative_regression",
+          "allowed_actions": [
+            "reject",
+            "retain"
+          ],
+          "workflow_expected": "retain",
+          "actual": "retain",
+          "pass": true,
+          "workflow_match": true
+        }
+      ]
+    }
+  ]
+}

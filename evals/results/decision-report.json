@@ -1,0 +1,74 @@
+{
+  "scope": "synthetic orchestrator stages only",
+  "model": "gpt-6-astra",
+  "cli": "0.153.4",
+  "activation": {
+    "full": {
+      "calls": 3,
+      "correct": 24,
+      "decisions": 24,
+      "host_failures": 0
+    },
+    "baseline": {
+      "calls": 3,
+      "correct": 24,
+      "decisions": 24,
+      "host_failures": 0
+    },
+    "without_value_filter": {
+      "calls": 3,
+      "correct": 24,
+      "decisions": 24,
+      "host_failures": 0
+    },
+    "without_natural_trigger": {
+      "calls": 3,
+      "correct": 21,
+      "decisions": 24,
+      "host_failures": 0
+    }
+  },
+  "generation": {
+    "full": {
+      "calls": 3,
+      "correct": 12,
+      "decisions": 12,
+      "host_failures": 0
+    },
+    "baseline": {
+      "calls": 3,
+      "correct": 12,
+      "decisions": 12,
+      "host_failures": 0
+    },
+    "without_value_filter": {
+      "calls": 3,
+      "correct": 12,
+      "decisions": 12,
+      "host_failures": 0
+    }
+  },
+  "final_package_smoke": {
+    "full": {
+      "calls": 1,
+      "correct": 8,
+      "decisions": 8,
+      "host_failures": 0
+    }
+  },
+  "conclusions": {
+    "full_stage_contract": "PASS",
+    "whole_skill_increment_over_baseline": "UNPROVEN: baseline also passes",
+    "value_filter_increment": "UNPROVEN: no regression after removing value filter",
+    "natural_gate_local_contribution": "PASS within synthetic stage: removing requirement prematurely permits activation in 3/3 repeats of one case",
+    "real_derived_skill_effect": "UNPROVEN",
+    "actual_installation_and_consumption": "UNPROVEN",
+    "second_host_qualification": "UNPROVEN"
+  },
+  "repetition_warning": "Repeated draws are not independent real incidents; batch decisions share context",
+  "exploratory_calls_retained": 3,
+  "harness_unit_tests": {
+    "passed": 8,
+    "total": 8
+  }
+}

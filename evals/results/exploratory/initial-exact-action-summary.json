@@ -1,0 +1,797 @@
+{
+  "scope": "synthetic orchestrator stage; repeated draws are not independent real incidents",
+  "runs": [
+    {
+      "run": "full-1",
+      "status": "completed",
+      "started_at": "2026-09-15T22:24:12.099138+00:00",
+      "returncode": 0,
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "incomplete_source",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "baseline_already_green",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "explicit_only",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "negative_regression",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        }
+      ],
+      "usage": [
+        {
+          "input_tokens": 18824,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 583,
+          "reasoning_output_tokens": 0
+        }
+      ]
+    },
+    {
+      "run": "full-2",
+      "status": "completed",
+      "started_at": "2026-09-15T22:24:41.901094+00:00",
+      "returncode": 0,
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "incomplete_source",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "baseline_already_green",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "explicit_only",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "negative_regression",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        }
+      ],
+      "usage": [
+        {
+          "input_tokens": 18821,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 538,
+          "reasoning_output_tokens": 0
+        }
+      ]
+    },
+    {
+      "run": "full-3",
+      "status": "completed",
+      "started_at": "2026-09-15T22:25:10.487059+00:00",
+      "returncode": 0,
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "incomplete_source",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "baseline_already_green",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "explicit_only",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "negative_regression",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        }
+      ],
+      "usage": [
+        {
+          "input_tokens": 18824,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 601,
+          "reasoning_output_tokens": 36
+        }
+      ]
+    },
+    {
+      "run": "baseline-1",
+      "status": "completed",
+      "started_at": "2026-09-15T22:25:40.850167+00:00",
+      "returncode": 0,
+      "pass": false,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "incomplete_source",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "baseline_already_green",
+          "expected": "retain",
+          "actual": "reject",
+          "pass": false
+        },
+        {
+          "id": "explicit_only",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "negative_regression",
+          "expected": "retain",
+          "actual": "reject",
+          "pass": false
+        }
+      ],
+      "usage": [
+        {
+          "input_tokens": 16347,
+          "cached_input_tokens": 11520,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 669,
+          "reasoning_output_tokens": 216
+        }
+      ]
+    },
+    {
+      "run": "baseline-2",
+      "status": "completed",
+      "started_at": "2026-09-15T22:26:14.629660+00:00",
+      "returncode": 0,
+      "pass": false,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "incomplete_source",
+          "expected": "retain",
+          "actual": "reject",
+          "pass": false
+        },
+        {
+          "id": "baseline_already_green",
+          "expected": "retain",
+          "actual": "reject",
+          "pass": false
+        },
+        {
+          "id": "explicit_only",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "negative_regression",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        }
+      ],
+      "usage": [
+        {
+          "input_tokens": 16353,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 604,
+          "reasoning_output_tokens": 102
+        }
+      ]
+    },
+    {
+      "run": "baseline-3",
+      "status": "completed",
+      "started_at": "2026-09-15T22:26:46.773959+00:00",
+      "returncode": 0,
+      "pass": false,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "incomplete_source",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "baseline_already_green",
+          "expected": "retain",
+          "actual": "reject",
+          "pass": false
+        },
+        {
+          "id": "explicit_only",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "negative_regression",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        }
+      ],
+      "usage": [
+        {
+          "input_tokens": 16350,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 613,
+          "reasoning_output_tokens": 110
+        }
+      ]
+    },
+    {
+      "run": "without_value_filter-1",
+      "status": "completed",
+      "started_at": "2026-09-15T22:27:20.788119+00:00",
+      "returncode": 0,
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "incomplete_source",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "baseline_already_green",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "explicit_only",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "negative_regression",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        }
+      ],
+      "usage": [
+        {
+          "input_tokens": 18552,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 461,
+          "reasoning_output_tokens": 0
+        }
+      ]
+    },
+    {
+      "run": "without_value_filter-2",
+      "status": "completed",
+      "started_at": "2026-09-15T22:27:52.400191+00:00",
+      "returncode": 0,
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "incomplete_source",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "baseline_already_green",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "explicit_only",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "negative_regression",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        }
+      ],
+      "usage": [
+        {
+          "input_tokens": 18549,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 474,
+          "reasoning_output_tokens": 0
+        }
+      ]
+    },
+    {
+      "run": "without_value_filter-3",
+      "status": "completed",
+      "started_at": "2026-09-15T22:28:22.791707+00:00",
+      "returncode": 0,
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "incomplete_source",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "baseline_already_green",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "explicit_only",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "negative_regression",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        }
+      ],
+      "usage": [
+        {
+          "input_tokens": 18552,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 490,
+          "reasoning_output_tokens": 0
+        }
+      ]
+    },
+    {
+      "run": "without_natural_trigger-1",
+      "status": "completed",
+      "started_at": "2026-09-15T22:28:53.899223+00:00",
+      "returncode": 0,
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "incomplete_source",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "baseline_already_green",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "explicit_only",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "negative_regression",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        }
+      ],
+      "usage": [
+        {
+          "input_tokens": 18436,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 572,
+          "reasoning_output_tokens": 0
+        }
+      ]
+    },
+    {
+      "run": "without_natural_trigger-2",
+      "status": "completed",
+      "started_at": "2026-09-15T22:29:23.398343+00:00",
+      "returncode": 0,
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "incomplete_source",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "baseline_already_green",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "explicit_only",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "negative_regression",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        }
+      ],
+      "usage": [
+        {
+          "input_tokens": 18439,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 565,
+          "reasoning_output_tokens": 0
+        }
+      ]
+    },
+    {
+      "run": "without_natural_trigger-3",
+      "status": "completed",
+      "started_at": "2026-09-15T22:29:53.609194+00:00",
+      "returncode": 0,
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected": "activate",
+          "actual": "activate",
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected": "reject",
+          "actual": "reject",
+          "pass": true
+        },
+        {
+          "id": "incomplete_source",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "baseline_already_green",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "explicit_only",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        },
+        {
+          "id": "negative_regression",
+          "expected": "retain",
+          "actual": "retain",
+          "pass": true
+        }
+      ],
+      "usage": [
+        {
+          "input_tokens": 18430,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 698,
+          "reasoning_output_tokens": 20
+        }
+      ]
+    }
+  ]
+}

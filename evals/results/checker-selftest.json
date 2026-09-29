@@ -1,0 +1,6 @@
+{
+  "positive_controls": 1,
+  "negative_controls": 9,
+  "pass": true,
+  "scope": "action-contract only; reason semantics require independent review"
+}

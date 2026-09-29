@@ -1,0 +1,383 @@
+{
+  "scope": "synthetic candidate-generation stage",
+  "runs": [
+    {
+      "run": "full-1",
+      "status": "completed",
+      "started_at": "2026-09-15T22:33:14.011779+00:00",
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 17743,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 281,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "run": "full-2",
+      "status": "completed",
+      "started_at": "2026-09-15T22:33:37.629791+00:00",
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 17740,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 280,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "run": "full-3",
+      "status": "completed",
+      "started_at": "2026-09-15T22:34:00.380389+00:00",
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 17743,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 290,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "run": "baseline-1",
+      "status": "completed",
+      "started_at": "2026-09-15T22:34:21.682474+00:00",
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 15269,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 231,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "run": "baseline-2",
+      "status": "completed",
+      "started_at": "2026-09-15T22:34:42.987093+00:00",
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 15272,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 220,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "run": "baseline-3",
+      "status": "completed",
+      "started_at": "2026-09-15T22:35:02.648488+00:00",
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 15272,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 246,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "run": "without_value_filter-1",
+      "status": "completed",
+      "started_at": "2026-09-15T22:35:23.924694+00:00",
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 17468,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 243,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "run": "without_value_filter-2",
+      "status": "completed",
+      "started_at": "2026-09-15T22:35:44.879019+00:00",
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 17468,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 266,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "run": "without_value_filter-3",
+      "status": "completed",
+      "started_at": "2026-09-15T22:36:05.989113+00:00",
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 17468,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 246,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "pass": true,
+      "cases": [
+        {
+          "id": "work_delivery",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "life_packing",
+          "expected_create": true,
+          "actual_create": true,
+          "pass": true
+        },
+        {
+          "id": "unrelated_hobby",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        },
+        {
+          "id": "already_covered",
+          "expected_create": false,
+          "actual_create": false,
+          "pass": true
+        }
+      ]
+    }
+  ]
+}

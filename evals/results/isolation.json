@@ -1,0 +1,28 @@
+{
+  "cli_version": "codex-cli 0.153.4",
+  "probe_exit_code": 0,
+  "probe_result": "READY",
+  "model_override": null,
+  "model_identifier": "gpt-6-astra",
+  "sandbox": "read-only",
+  "user_config_loaded": false,
+  "temporary_home": true,
+  "temporary_codex_home": true,
+  "auth_only_copied": true,
+  "working_directory": "empty temporary directory outside repositories",
+  "session": "ephemeral",
+  "inventory_evidence": "model self-report; not a full system injection dump",
+  "visible_skills": [
+    "imagegen",
+    "openai-docs",
+    "plugin-creator",
+    "skill-creator",
+    "skill-installer"
+  ],
+  "visible_memory": null,
+  "saved_to_practice_visible": false,
+  "personal_preferences_visible": false,
+  "provider": "openai",
+  "reasoning_effort": "none",
+  "model_evidence": "same-config non-JSON CLI startup header; individual JSON run events omit model ID"
+}
